@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.codingdojo.AppTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.054 s <<< FAILURE! - in com.codingdojo.AppTest
+allsingles(com.codingdojo.AppTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: expected:<20> but was:<0>
+	at com.codingdojo.AppTest.allsingles(AppTest.java:35)
+
