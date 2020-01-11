@@ -51,7 +51,7 @@ public class Bowling {
 				totalScore = totalScore + spareScore(framePos);
 				framePos = framePos + 2;
 			} else {
-				totalScore = totalScore + rolls[framePos] + (framePos + 1 < rolls.length ? rolls[framePos + 1] : 0);
+				totalScore = totalScore + normalScore(framePos);
 				framePos = framePos + 2;
 			}
 			frame++;
@@ -59,6 +59,15 @@ public class Bowling {
 		return totalScore;
 	}
 
+	/*
+	 * 
+	 * This Method calculates if a Normal scores for the current frame
+	 * 
+	 */
+	private int normalScore(int framePos) {
+		return rolls[framePos] + (framePos + 1 < rolls.length ? rolls[framePos + 1] : 0);
+	}
+	
 	/*
 	 * 
 	 * This Method calculates if a Spare scores for the current frame
