@@ -1,6 +1,6 @@
-# Project Title
+# Bowling Score Calculater
 
-Bowling Score Calculater
+Score Calculater for a game of bowling. 
 
 ## Getting Started
 
